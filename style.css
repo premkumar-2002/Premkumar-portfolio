@@ -1,75 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgba(255, 255, 255, 0.973);
+    font-family:"Poppins", sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
+ }
+ .logo,.search{
+    color: #fd2e5e;
+ }
+ .icon{
+    display: flex;
+    height: 30px;
+ }
+ .searchbar{
+    display: flex;
+    border: solid black 1px;
+    width: 28%;
+    border-radius: 30px;
+    padding: 10px;
+    justify-content: space-around;
+    font-size: small;
+ }
+ .login{
+    padding: 20px;
+ }
+ .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    animation-name: drop;
+    transition-duration: 0.5s:
+ }
 
-            *{
-                padding: 0%;
-                margin: 0%;
-            }
-            body{
-                font-family: "Young Serif", serif;
-            }
-            .section_one{
-                background-color: black;
-                color: white;
-                padding: 20px;
-            }
-            .section1_name{
-                font-size: 30px;
-            }
-            .section2__role{
-                font-size: 20px;
-                margin-top: 10px;
-                margin-bottom: 20px;
-            }
-            .section3__contact{
-                background-color: orangered;
-                color: white;
-                text-decoration: none;
-                padding-left: 10px;
-                padding-right: 10px;
-                padding-top: 5px;
-                padding-bottom: 5px;                
-             }
-             .container{
-                padding: 50px;
-             }
-
-             .section_two{
-                margin-top: 20px;
-             }
-             .section1_about{
-                margin-bottom: 10px;
-             }
-             .section_three{
-                background-color: rgb(99, 80, 207);
-                padding: 20px;
-                border-radius: 10px;
-                margin-top: 20px;
-                
-                height: 120px;
-                display: inline-block;
-                vertical-align: top;
-              }
-             li{
-                list-style: none;
-             }
-             .section_four{
-                background-color: rgb(204, 95, 56);
-                border-radius: 10px;
-                padding: 20px;
-                height: 120px;
-                display: inline-block;
-                vertical-align: bottom;
-
-             }
-             .section_5{
-                background-color: black;
-                color: white;
-                border-radius: 10px;
-                padding: 20px;
-                margin-top: 20px;
-             }
-             .youtube{
-                text-decoration: none;
-             }
-
-            
+ .logo{
+    font-size: 15px;
+  }
+ .filter-section{
+    display: flex;
+    justify-content:space-around;
+    text-align: center;
+    padding: 10px;
+    font-size:small;
     
+    }
+ .hotel-container{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+ }
+ img{
+    border-radius: 10px;
+ }
+ img:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+ }
+ .support{
+    display: flex;
+    justify-content:space-between;
+    padding: 10px;
+    margin-left: 25px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.footer{
+    padding: 25px;
+   display: flex;
+   justify-content:space-between
+}
